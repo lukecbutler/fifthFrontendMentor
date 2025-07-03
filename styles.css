@@ -29,6 +29,7 @@ body{
 }
 
 .image1{
+    display: block;
     max-width: 50%;
 }
 
