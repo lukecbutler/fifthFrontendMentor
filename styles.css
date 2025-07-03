@@ -27,7 +27,7 @@ body{
     max-width: 40em;
 }
 
-.image{
+.image1{
     max-width: 50%;
 }
 
@@ -106,4 +106,40 @@ body{
 
 .cart .cart-icon{
     height: 20px;
+}
+
+
+@media screen and (max-width:700px){
+    .flex-container{
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        flex-direction: column;
+        max-width: 90vw;
+    }
+
+    /* switch images */
+    .image1{
+        display: none;
+    }
+
+    .image2{
+        display: block;
+    }
+
+    .product-information{
+        max-width: 90vw;
+    }
+
+    .item{
+        font-size: 35px;
+    }
+
+    .description{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .cart{
+        margin-bottom: 5vh;
+    }
 }
