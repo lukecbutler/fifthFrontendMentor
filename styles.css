@@ -4,9 +4,6 @@
     padding: 0;
 }
 
-.image2{
-    display: none;
-}
 
 body{
     display: flex;
@@ -20,7 +17,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
 }
 
 .flex-container{
@@ -33,6 +30,10 @@ body{
 
 .image1{
     max-width: 50%;
+}
+
+.image2{
+    display: none;
 }
 
 .product-information{
