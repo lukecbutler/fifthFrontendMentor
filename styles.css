@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+.image2{
+    display: none;
+}
+
 body{
     display: flex;
     background-color: hsl(30, 38%, 92%);
